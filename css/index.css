@@ -1,0 +1,98 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+header{
+    background-color: rgb(35, 43, 41) ;
+    height: 100px;
+    text-align: center;
+    color: rgb(255, 166, 0);
+    padding: 1rem;
+    
+    
+}
+header h1 {
+    text-align: center;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: rgb(10, 10, 10);
+    height: 70px;
+}
+
+nav ul li{
+   margin:10px;
+   justify-content: center;
+ 
+}
+
+nav ul li a{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    padding:10px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: rgb(39, 15, 105);
+}
+
+
+main{
+    display: flex;
+    padding: 2rem;
+    justify-content:center;
+    background-color: rgb(47, 54, 54);
+
+    
+}
+
+.content{
+    flex: 3;
+    padding-right: 2rem;
+    
+}
+
+aside{
+    flex: 1;
+    background-color: rgb(46, 45, 43);
+    padding: 1rem;
+    border-left:  1px solid #dfc8c8; 
+    
+}
+aside nav ul{
+    list-style: none;
+    padding: 0;
+    display: contents;
+}
+aside nav ul li a:hover{
+    text-decoration: underline;
+}
+
+article{
+    margin-bottom: 2rem;
+}
+
+
+section{
+    margin-bottom: 2rem;
+}
+
+footer{
+    background-color: rgb(51, 5, 95);
+    color: rgb(39, 22, 192);
+}
